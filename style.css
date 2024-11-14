@@ -1,34 +1,139 @@
 body {
-    background-color: #282b33;
+    background-color: black;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
 }
-
+.box {
+    background-color: #282b33;
+    width: 64%;
+    height:500px;
+    margin:  auto;
+    margin-top: 50px;
+}
+.heading {
+    text-align: center;
+    padding-top: 50px;
+}
 table {
     text-align: center;
-    border: 1px solid gray;
-    border-spacing: 0px;
-    width: 50%;
-    height: 300px;
-    margin: 200px auto;
+    border: 0px 1px 1px 1px  solid gray;
+    /* border-spacing: 0px; */
+    margin: auto;
+    /* padding-top: 0px; */
 }
-tr,td,th {
+table,th,td {
+    border-collapse: collapse;
+}
+tr,td {
     border: 1px solid gray;
+    bor
 
 }
 th {
     text-transform: uppercase;
 }
+th,tr {
+    width: 210px;
+    height: 40px;
+}
+.fst-clm {
+    text-align: left;
+    padding-left: 10px;
+}
 .th1 {
     background-color: white;
     color: black;
+    text-align: left;
+    padding-left: 10px;
 }
+
 .th2 {
     background-color: #FF9B00;
 }
+
 .th3 {
     background-color: #EA3C43;
 }
 .th4 {
     background-color: #07B8C7;
+}
+
+.fm2 {
+    color:#FF9B00;
+    font-size: larger;
+    font-weight: bold;
+}
+.fm2:hover {
+    background-color: #FF9B00;
+    color: white;
+}
+
+.fm3 {
+    color:#EA3C43;
+    font-size: larger;
+    font-weight: bold;
+}
+.fm3:hover {
+    background-color: #EA3C43;
+    color: white;
+}
+
+.fm4:hover {
+    color: #07B8C7;
+    font-size: larger;
+    font-weight: bold;
+}
+.fm4:hover {
+    background-color: #07B8C7;
+    color: white;
+}
+
+.checks {
+    color:#FF9B00;
+    font-size: larger;
+    font-size: 20px;
+    font-weight: bold;
+}
+.checks:hover {
+    color: #FF9B00;
+    font-size: 25px;
+}
+
+button {
+    border: 1px solid red;
+    color: white;
+    background-color: red;
+    width: 80px;
+    height: 22px;
+    border-radius: 25px;
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+button:hover {
+    transform: scale(1.2);
+    transition: .4s;
+    cursor: pointer;
+}
+button:active {
+    background-color: rgb(118, 7, 7);
+    border: 1px solid rgb(118, 7, 7);
+    transition: 0s;
+}
+
+td:hover {
+    background-color: white;
+    color: gray;
+    font-size: larger;
+    transform: scale(1.1);
+    transition: .4s;
+    border-radius: 5px;
+}
+
+.btn-box:hover {
+    background-color:#282b33;
+    transform: none;
+    border-radius: 0px;
 }
